@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtIdAmigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="57dp"
+        android:text="#" />
+
+    <TextView
+        android:id="@+id/txtNomeAmigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtIdAmigo"
+        android:layout_below="@+id/txtIdAmigo"
+        android:layout_marginTop="41dp"
+        android:text="Nome" />
+
+    <TextView
+        android:id="@+id/txtTelefoneAmigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtNomeAmigo"
+        android:layout_below="@+id/txtNomeAmigo"
+        android:layout_marginTop="35dp"
+        android:text="Telefone" />
+
+    <TextView
+        android:id="@+id/txtEmailAmigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtTelefoneAmigo"
+        android:layout_below="@+id/txtTelefoneAmigo"
+        android:layout_marginTop="32dp"
+        android:text="Email" />
+</RelativeLayout>
